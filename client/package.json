@@ -16,5 +16,12 @@
     "svelte-check": "^4.1.4",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.3",
+    "clsx": "^2.1.1",
+    "svelte-motion": "^0.12.2",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.1.3"
   }
 }
