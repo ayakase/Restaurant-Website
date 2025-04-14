@@ -2,7 +2,9 @@
   "name": "server",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify"
+    "deploy": "wrangler deploy --minify",
+    "build":"bun build index.ts --outdir dist --target browser"
+    
   },
   "dependencies": {
     "hono": "^4.7.6"
